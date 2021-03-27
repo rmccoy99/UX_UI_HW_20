@@ -1,0 +1,787 @@
+* {
+    box-sizing: border-box;
+    color: #646464;
+}
+
+/* Navigation */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 2em;
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, .6);
+}
+
+.main-nav li {
+    padding: 0 1%;
+}
+.nav a:hover {
+    color: #D65A41;
+}
+
+.mainheader {
+    background-color: #F7F7F7;
+}
+
+/* Hero Section */
+
+.container {
+    background-color: #F7F7F7;
+}
+
+.content-section {
+    max-width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 15px 1.5em;
+    padding-top: 100px;
+    background-color: #F7F7F7;
+}
+
+.profile-image {
+    float: left;
+    height: 700px;
+    width: 700px;
+    padding-right: 30px;
+}
+.title {
+    font-family: "Spartan", sans-serif;
+    font-size: 54px;
+    line-height: 1%;
+}
+.italic-title {
+    font-family: "Lato", sans-serif;
+    color: #D65A41;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.body-copy {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.content-section li {
+    display: inline-block;
+    color: #646464;
+    padding-right: 3%;
+    padding-top: 15px;
+    padding-bottom: 125px;
+}
+
+.content-section a {
+    text-decoration-line: underline;
+    background-color: #F7F7F7;
+    border: none; 
+}
+
+#arrow {
+    color: #D65A41;
+    padding-left: 8px;
+}
+
+button {
+    text-decoration-line: underline;
+    background-color: #F7F7F7;
+    border: none; 
+}
+
+button i {
+    color: #D65A41;
+    padding-left: 8px;
+}
+
+/* Anchor */
+.anchorTag {
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+hr {
+    width: 50px;
+    border: 2px solid #D65A41;
+    float: left;
+    margin-top: 21px;
+    margin-right: 15px;
+}
+.anchorTag h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    color: #646464;
+    font-size: 14px;
+}
+
+/* Fade */
+.reveal {
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+/* Weshop Case Study*/
+
+.caseStudy-WeShop {
+    max-width: 1200px;
+    height: 500px;
+    margin: 50px auto;
+    background-color:#9D8CB0;
+    transition: transform .2s;
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "left right";
+}
+
+.caseStudy-WeShop:hover {
+    transform: scale(1.02);
+}
+
+.WeShop-left{
+    grid-area: left;
+    justify-content: left;
+    padding-left: 120px;
+    padding-top: 120px;
+}
+.WeShop-left h1 {
+    color: #F5D184;
+    font-size: 64px;
+}
+
+.WeShop-left h2 {
+    color: white;
+    font-family: "Lato", sans-serif;
+    padding-bottom: 8px;
+}
+
+.WeShop-left ul {
+    margin-left: -40px;
+}
+.WeShop-left li {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.pillTag {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+}
+
+.WeShop-left button {
+    color: white;
+    background-color: transparent;
+    padding-top: 50px;
+}
+
+#arrow2 {
+    color: white;
+    padding-left: 8x;
+}
+.WeShop-right {
+    grid-area: right;
+}
+.triangle{
+    width: auto;
+    height: 500px;
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    padding-left: 100px;
+
+}
+.weshop-image {
+    width: auto;
+    height: 650px;
+    position: absolute;
+    top: -80px;
+    right: -100px;
+    z-index: 3;
+}
+
+/* NSA Case Study */
+.caseStudy-NSA {
+    max-width: 1200px;
+    height: 500px;
+    margin: 50px auto;
+    background-color: #283D51;
+    transition: transform .2s;
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "left right";
+}
+
+.caseStudy-NSA:hover {
+    transform: scale(1.02);
+}
+
+.NSA-left{
+    grid-area: left;
+    justify-content: left;
+    padding-left: 120px;
+    padding-top: 120px;
+}
+
+.NSA-left h1 {
+    color: #CBBA97;
+    font-size: 64px;
+}
+
+.NSA-left h2 {
+    color: white;
+    font-family: "Lato", sans-serif;
+    padding-bottom: 8px;
+}
+
+.NSA-left li {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 0 25px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.NSA-left ul {
+    margin-left: -40px;
+}
+
+
+.pillTag {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+}
+
+.NSA-left button {
+    color: white;
+    background-color: transparent;
+    padding-top: 50px;
+}
+
+
+.NSA-right {
+    grid-area: right;
+}
+
+.triangle{
+    width: auto;
+    height: 500px;
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    padding-left: 100px;
+
+}
+.NSA-image {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: -60px;
+    right: -50px;
+    z-index: 3;
+}
+
+/* Beverado Case Study */
+.caseStudy-Beverado {
+    max-width: 1200px;
+    height: 500px;
+    margin: 50px auto;
+    background-color:#24A497;
+    transition: transform .2s;
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "left right";
+}
+
+.caseStudy-Beverado:hover {
+    transform: scale(1.02);
+}
+
+.Beverado-left {
+    grid-area: left;
+    justify-content: left;
+    padding-left: 120px;
+    padding-top: 120px;
+}
+
+.Beverado-left h1 {
+    color: #EFD1A9;
+    font-size: 64px;
+}
+
+.Beverado-left h2 {
+    color: white;
+    font-family: "Lato", sans-serif;
+    padding-bottom: 8px;
+}
+
+.Beverado-left ul {
+    margin-left: -40px;
+}
+
+.Beverado-left li {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.pillTag {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+}
+
+.Beverado-left button {
+    color: white;
+    background-color: transparent;
+    padding-top: 50px;
+}
+
+.Beverado-right {
+    grid-area: right;
+}
+
+.Beverado-image {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.triangle{
+    width: auto;
+    height: 500px;
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    padding-left: 100px;
+
+}
+.Beverado-image {
+    width: auto;
+    height: 650px;
+    position: absolute;
+    top: -80px;
+    right: -100px;
+    z-index: 3;
+}
+/* About Me */
+.aboutMe {
+    max-width: 1200px;      
+    margin: 0 auto;
+    padding: 15px 1.5em;
+}
+
+.line1 {
+    font-family: "Spartan", sans-serif;
+    color: #646464;
+    font-size: 28px;
+}
+.line2 {
+    font-family: "Spartan", sans-serif;
+    color: #D65A41;
+    text-decoration: underline;
+    font-size: 28px;
+    padding-left: 8px;
+}
+.aboutMe h1 {
+    display: inline;
+}
+.aboutMe p {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+.inline {
+    display: inline;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    color: #D65A41;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+/* Contact */
+.contact {
+    max-width: 1200px;      
+    margin: 0 auto;
+    padding: 1px 1.5em;
+}
+.contact h1 {
+    font-family: "Spartan", sans-serif;
+    color: #D65A41;
+    font-size: 28px;
+}
+.contact p {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+}
+.content-contact ul {
+    margin-left: -38px;
+}
+
+.content-contact li {
+    display: inline-block;
+    color: #646464;
+    padding-right: 3%;
+    padding-left: 0;
+    padding-top: 15px;
+    padding-bottom: 125px;
+}
+/* Footer */
+
+.footer ul {
+    margin: 0 auto;
+}
+
+.footer li {
+    display: inline;
+}
+
+.footer a {
+    display: inline-block;
+    padding: 15px;
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+}
+
+.main-foot {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, .6);
+}
+
+.main-foot li {
+    padding: 0 1%;
+}
+.footer a:hover {
+    color: #D65A41;
+}
+
+.mainfooter {
+    background-color: #F7F7F7;
+    padding: 5px 0;
+}
+
+.copyright{
+    color: #64646430;
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+}
+
+.main-foot i {
+    color: #D65A41;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .caseStudy-WeShop {
+        max-width: 300px;
+        height: 500px;
+        margin: 50px auto;
+        background-color:#9D8CB0;
+        position: relative;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px;
+        grid-template-areas: 
+        "right" 
+        "left";
+    }
+    
+    .WeShop-left{
+        grid-area: left;
+        justify-content: left;
+        padding-left: 120px;
+        padding-top: 120px;
+    }
+    .WeShop-left h1 {
+        color: #F5D184;
+        font-size: 64px;
+    }
+    
+    .WeShop-left h2 {
+        color: white;
+        font-family: "Lato", sans-serif;
+        padding-bottom: 8px;
+    }
+    
+    .WeShop-left ul {
+        margin-left: -40px;
+    }
+    .WeShop-left li {
+        background-color: rgba(255, 255, 255, 0.3);
+        border: none;
+        padding: 0 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 10px;
+        cursor: pointer;
+        border-radius: 30px;
+    }
+    
+    .pillTag {
+        color: white;
+        font-family: "Lato", sans-serif;
+        font-size: 12px;
+    }
+    
+    .WeShop-left button {
+        color: white;
+        background-color: transparent;
+        padding-top: 50px;
+    }
+    
+    #arrow2 {
+        color: white;
+        padding-left: 8x;
+    }
+    .WeShop-right {
+        grid-area: right;
+    }
+    .triangle{
+        width: auto;
+        height: 500px;
+        position: relative;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        padding-left: 100px;
+    
+    }
+    .weshop-image {
+        width: auto;
+        height: 650px;
+        position: absolute;
+        top: -80px;
+        right: -100px;
+        z-index: 3;
+    }
+    
+    /* NSA Case Study */
+    .caseStudy-NSA {
+        max-width: 1200px;
+        height: 500px;
+        margin: 50px auto;
+        background-color: #283D51;
+        position: relative;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "left right";
+    }
+    
+    .NSA-left{
+        grid-area: left;
+        justify-content: left;
+        padding-left: 120px;
+        padding-top: 120px;
+    }
+    
+    .NSA-left h1 {
+        color: #CBBA97;
+        font-size: 64px;
+    }
+    
+    .NSA-left h2 {
+        color: white;
+        font-family: "Lato", sans-serif;
+        padding-bottom: 8px;
+    }
+    
+    .NSA-left li {
+        background-color: rgba(255, 255, 255, 0.3);
+        border: none;
+        padding: 0 25px; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 10px;
+        cursor: pointer;
+        border-radius: 30px;
+    }
+    
+    .NSA-left ul {
+        margin-left: -40px;
+    }
+    
+    
+    .pillTag {
+        color: white;
+        font-family: "Lato", sans-serif;
+        font-size: 12px;
+    }
+    
+    .NSA-left button {
+        color: white;
+        background-color: transparent;
+        padding-top: 50px;
+    }
+    
+    
+    .NSA-right {
+        grid-area: right;
+    }
+    
+    .triangle{
+        width: auto;
+        height: 500px;
+        position: relative;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        padding-left: 100px;
+    
+    }
+    .NSA-image {
+        width: 800px;
+        height: 600px;
+        position: absolute;
+        top: -60px;
+        right: -50px;
+        z-index: 3;
+    }
+    
+    /* Beverado Case Study */
+    .caseStudy-Beverado {
+        max-width: 1200px;
+        height: 500px;
+        margin: 50px auto;
+        background-color:#24A497;
+        position: relative;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "left right";
+    }
+    
+    .Beverado-left {
+        grid-area: left;
+        justify-content: left;
+        padding-left: 120px;
+        padding-top: 120px;
+    }
+    
+    .Beverado-left h1 {
+        color: #EFD1A9;
+        font-size: 64px;
+    }
+    
+    .Beverado-left h2 {
+        color: white;
+        font-family: "Lato", sans-serif;
+        padding-bottom: 8px;
+    }
+    
+    .Beverado-left ul {
+        margin-left: -40px;
+    }
+    
+    .Beverado-left li {
+        background-color: rgba(255, 255, 255, 0.3);
+        border: none;
+        padding: 0 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 10px;
+        cursor: pointer;
+        border-radius: 30px;
+    }
+    
+    .pillTag {
+        color: white;
+        font-family: "Lato", sans-serif;
+        font-size: 12px;
+    }
+    
+    .Beverado-left button {
+        color: white;
+        background-color: transparent;
+        padding-top: 50px;
+    }
+    
+    .Beverado-right {
+        grid-area: right;
+    }
+    
+    .Beverado-image {
+        height: 500px;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .triangle{
+        width: auto;
+        height: 500px;
+        position: relative;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        padding-left: 100px;
+    
+    }
+    .Beverado-image {
+        width: auto;
+        height: 650px;
+        position: absolute;
+        top: -80px;
+        right: -100px;
+        z-index: 3;
+    } 
+}
