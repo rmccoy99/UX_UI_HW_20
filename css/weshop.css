@@ -1,0 +1,464 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation */
+
+.nav a {
+    display: inline-block;
+    padding: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+/* Jumbotron */
+.row.hero {
+    padding-left: 100px;
+}
+.col h1 {
+    color: #F5D184;
+    font-family: "Spartan", sans-serif;
+}
+.col p {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+}
+
+/* Role */
+.roleBox {
+    height: auto;
+    margin-left: 138px; 
+    margin-right: 138px;
+    margin-top: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #70707025;
+    background-color: transparent;
+}
+#first {
+    align-items: center;
+    justify-content: left;
+}
+#second {
+    align-items: center;
+    justify-content: center;
+}
+#third {
+    align-items: center;
+    justify-content: right;
+}
+.title {
+    color: #9D8CB0;
+    font-family: "Lato", sans-serif;
+}
+.subtitle {
+    color: #707070;
+    font-family: "Lato", sans-serif;
+}
+
+/* Anchor */
+.anchorTag {
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+hr {
+    width: 50px;
+    border: 2px solid #707070;
+    float: left;
+    margin-top: 8px;
+    margin-right: 15px;
+}
+.anchorTag h3 {
+    font-family: "Lato", sans-serif;
+    color: #646464;
+    font-size: 14px;
+}
+
+/* Project Overview */
+.projectOverview {
+    margin-left: 138px; 
+    margin-right: 138px;
+}
+.header1 {
+    font-family:"Spartan", sans-serif;
+    color: #707070;
+    padding-bottom: 30px;
+    padding-top: 35px;
+    font-size: 36px;
+}
+.paragraph1 {
+    font-family: "Lato", sans-serif;
+    color: #707070;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.paragraphbold {
+    font-family: "Lato", sans-serif;
+    color: #707070;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* Design Process */
+.process {
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.process img {
+    padding-top: 25px;
+    width: 50%;
+    color: #9D8CB0;
+}
+
+.process h3 {
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    color: #646464;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* The Problem */
+.Problem {
+    margin: 0 138px;
+}
+.the-problem {
+    padding-top: 45px;
+    width: 90%;
+    padding-bottom: 125px;
+}
+.the-problem h1 {
+    font-family: "Spartan", sans-serif;
+    font-size: 36px;
+    color: #9D8CB0;
+}
+.the-problem h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    color: #9D8CB0;
+    font-weight: 900;
+    padding-top: 10px;
+}
+.the-problem p {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    color: #646464;
+    padding-top: 10px;
+}
+
+/* The Solution */
+.white h3{
+    color: white;
+}
+.white hr {
+    border-color: white;
+}
+.the-solution {
+    padding-top: 45px;
+    width: 90%;
+    padding-bottom: 100px;
+    padding-left: 138px;
+}
+.the-solution h1 {
+    font-family: "Spartan", sans-serif;
+    font-size: 36px;
+    color: #F5D184;
+}
+.the-solution h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    color: #F5D184;
+    font-weight: 900;
+    padding-top: 10px;
+}
+.the-solution p {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-top: 10px;
+}
+
+/* Research */
+.survey {
+    margin-left: 138px;
+    margin-right: 138px;
+}
+.survey h2{
+    font-family: "Spartan", sans-serif;
+    color: #707070;
+    font-size: 36px;
+    padding-bottom: 30px;
+    padding-top: 35px;
+}
+.survey p {
+    font-family: "Lato", sans-serif;
+    color: #707070;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.row.data {
+    justify-content: center;
+}
+.surveydata {
+    padding-left: 0;
+    margin-left: 0;
+}
+.surveydata h1{
+    font-family: "Spartan", sans-serif;
+    font-size: 64px;
+    color: #F5D184;
+    padding-top: 35px;
+}
+.surveydata h3 {
+    font-family: "Lato", sans-serif;
+    color: #F5D184;
+    font-weight: 300;
+}
+.target {
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+.targetUser h1 {
+    font-family: "Spartan", sans-serif;
+    font-size: 36px;
+    color: #9D8CB0;
+}
+.targetUser h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    color: #9D8CB0;
+    font-weight: 900;
+    padding-top: 10px;
+}
+.targetUser p {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    color: #707070;
+    margin-top: -15px;
+}
+
+/* User Persona */
+.persona {
+    margin-top: 100px;
+}
+.userPersona {
+    margin-left: 138px;
+}
+.userPersona h2 {
+    font-family: "Spartan", sans-serif;
+    color: #707070;
+    font-size: 36px;
+    padding-bottom: 30px;
+    padding-top: 35px;
+}
+.userPersona p {
+    font-family: "Lato", sans-serif;
+    color: #707070;
+    padding-bottom: 10px;
+    font-size: 20px;
+    margin-right: 138px;
+}
+.persona1.persona2 {
+    display: inline;
+}
+.persona1 {
+    width: 43%;
+    padding-right: 10px;
+}
+.persona2 {
+    width: 43%;
+    padding-left: 10px;
+}
+.persona3 {
+    width: 43%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;  
+}
+.userResults {
+    padding-top: 35px;
+    margin-left: 138px;
+    padding-bottom: 75px;
+}
+.results {
+    margin-right: 138px;
+}
+.userResults h1 {
+    font-family: "Spartan", sans-serif;
+    font-size: 36px;
+    color: #9D8CB0;
+}
+.userResults p {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    color: #707070;
+}
+
+/* Competitor Analysis */
+.card-group {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 138px;
+    margin-right: 138px;
+}
+.card {
+    border-color: transparent;
+    padding: 5px;
+}
+.competitors {
+    margin-left: 138px;
+    margin-right: 138px;
+    margin-top: 60px;
+}
+.competitors img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+/* User Flow */
+.userflow {
+    margin-top: 40px;
+    margin-left: 138px;
+}
+.userflow p {
+    margin-right: 138px;
+}
+.userflow img {
+    display: block;
+    margin-left: 69px;
+    margin-top: 50px;
+}
+
+/* Low-fidelity Wireframes */
+.lofi {
+    margin-top: 100px;
+}
+.lofi h1 {
+    color: #9D8CB0;
+    margin-left: 138px;
+    margin-top: 30px;
+}
+.lofi p {
+    margin-left: 138px;
+    margin-right: 138px;
+}
+.lowfi {
+    padding-bottom: 100px;
+}
+.wireframes {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.invision {
+    flex: 15%;
+    padding: 10px;
+}
+.invision img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Branding */
+.branding h1 {
+    margin-left: 138px;
+}
+.branding p {
+    margin-left: 138px;
+    margin-right: 138px;
+}
+.branding img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+/* High-fidelity wireframes */
+#outcome {
+    color: white;
+}
+.hifi h1 {
+    color: #F5D184;
+    margin-left: 138px;
+}
+.hifi p {
+    color: white;
+    margin-left: 138px;
+    margin-right: 138px;
+}
+.highfi {
+    padding-bottom: 100px;
+}
+.adobe {
+    flex: 15%;
+    padding: 8px;
+}
+.adobe img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+}
+/* Video */
+.video_wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin-right: 138px;
+    margin-left: 138px;
+    margin-top: 50px;
+}
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Reflection */
+.reflection {
+    margin-left: 138px;
+    margin-right: 138px;
+}
+.learned {
+    margin-top: 25px;
+}
+
+/* Next Case Study */
+.nextCaseStudy {
+    float: right;
+    padding-top: 125px;  
+    margin-right: 138px; 
+}
+.nextCaseStudy p {
+    font-size: 24px;
+    font-weight: 700;
+}
+.italic-title {
+    font-family: "Lato", sans-serif;
+    color: #646464;
+    font-style: italic;
+    font-size: 24px;
+}
+#arrow {
+    color: #646464;
+    padding-left: 8px;
+}
